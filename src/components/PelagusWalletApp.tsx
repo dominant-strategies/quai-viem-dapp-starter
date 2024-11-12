@@ -219,7 +219,7 @@ const PelagusWalletApp = () => {
       )}
 
       {status && (
-        <div className="p-4 bg-blue-100 text-blue-700 rounded">
+        <div className="p-4 bg-blue-100 text-blue-700 rounded w-full text-xs">
           {status}
         </div>
       )}
